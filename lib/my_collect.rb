@@ -7,7 +7,7 @@ def my_collect (array)
   array
 end
 
-my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) {|name| name.split(" ").first}
+my_collect(array) {|name| name.split(" ").first}
 
 
 
