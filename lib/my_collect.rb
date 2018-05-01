@@ -12,6 +12,8 @@ my_collect("Tim Jones", "Tom Smith", "Jim Campagno") {|name| name.split(" ").fir
 
 my_collect('ruby', 'javascript', 'python', 'objective-c') {|lang| lang.upcase}
 
+my_collect('ruby', 'javascript', 'python', 'objective-c') {|lang| lang.upcase}
+
 
 
 
